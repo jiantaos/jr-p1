@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 body{
-    /* min-width: 100vw; */
+    min-width:320px;
+    background-color: #fff;
     color: #fff;
     
 }
@@ -93,7 +94,7 @@ b {
     flex-direction: column;
     padding-left: 10vw;
     padding-right: 10vw;
-    width:100vw;
+    
     /*
     -webkit-background-size: cover;
     -moz-background-size: cover;
