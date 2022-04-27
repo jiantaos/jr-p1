@@ -46,9 +46,6 @@ b {
     right: 0;
     bottom: 0;
     z-index: 9999;
-    /* padding: 40px 5px;
-    padding-top: 70px; */
-    /* padding:2em 1em; */
     margin-bottom: 70px;
     background: #0D1326;
     border-top-left-radius: 9px;
@@ -78,13 +75,29 @@ b {
     color: #e6ebff;
     text-decoration: none;
     line-height: 24px;
-    /* opacity: .8; */
     padding: 8px;
     text-align: center;
 }
 .w3l-text{
     font-size:1em;
     color:#e6ebff;
+}
+@media (max-width: 480px){
+    .sidebar{
+        width:80px;
+    }
+    /* .side-buttons{
+        height:160px;
+    } */
+    .side-buttons a{
+        padding:10px;
+    }
+    .side-buttons a i{
+        padding:4px;
+    }
+    .w3l-text{
+        font-size:0.7em;
+    }
 }
 .header{
     background: url(./img/back-img-sized2.png) no-repeat center top;
