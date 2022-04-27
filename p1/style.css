@@ -253,7 +253,7 @@ b {
     min-width:8em;
     padding-top:0.5em;
     padding-bottom: 0.5em;
-    text-align: top;  
+    text-align:start;  
 }
 
 
@@ -283,7 +283,7 @@ b {
     .header__address{
         padding-top: 1rem;
         margin-top:1em;
-        padding-left:0;
+        padding-left:1em;
     }
     .header__address-text{
         padding-left:0;
@@ -343,7 +343,7 @@ b {
 }
 @media (min-width: 978px){
     .header__navspan{
-        width:50%;
+        /* width:50%; */
         display: flex;
         flex-wrap: wrap;
         margin-top: 1%;
