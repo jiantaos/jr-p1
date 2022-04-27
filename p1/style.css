@@ -294,12 +294,7 @@ b {
         margin-top: 2em;
         background: #1d1919;
     }
-    /* .header__navspan li {
-        display:inline-block; 
-        text-decoration: none;
-        width:100%;
-        padding:0.8em ;
-    } */
+
     .header__navspan a{
         font-weight: lighter;
         display: flex;
@@ -364,13 +359,20 @@ b {
     
 
 @media (max-width: 460px){
+    .header{
+        padding-left:0.5em;
+        padding-right: 0.5em;
+    }
+    .header__one{
+        padding:1em;
+    }
     .header__two{
         width:10%; 
         padding:0.5em; 
     }
     .header__two img{
-        width:220px;
-        height:250px;
+        width:250px;
+        height:300px;
       
     } 
 }
@@ -439,7 +441,9 @@ b {
         font-size:0.6em;
     }
     .about__pic{
-        width:100%
+        width:100%;
+        background: url(./img/about-pic2-edited.jpg) no-repeat 0px 0px;
+        background-size: cover;
     }
 }
 .about__grid h2{
@@ -1128,15 +1132,20 @@ span.border.one:after {
 .social-icons li{
     display: inline-block;
     margin:1rem;
+    position: relative;
     /* font-size:1.5rem; */
 }
 .social-icons li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     color:#fff;
     background-color: transparent;
 }
 .social-icons li a:before {
-  
+    position: absolute;
+    z-index:9;
     content: '';
     display: block;
     height: 32px;
@@ -1149,11 +1158,11 @@ span.border.one:after {
     border-color:var(--green);
     box-shadow: 0px 0.5px 1px var(--green), 0 0.5px 1px #ccc;
 }
-.social-icons li a i{
+/* .social-icons li a i{
     position:absolute;
     top:0.3em;
     left:-0.5em;
-}
+} */
 
 
 @media (max-width: 700px){
