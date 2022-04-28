@@ -409,48 +409,7 @@ b {
     z-index:1;
     
 }
-@media (max-width: 951px){
-    
-    .about__grid{
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-        padding-left:3rem;
-        padding-right:2rem;
-    }
-    .about__grid p{
-        color: #666666;
-        line-height:2em;
-    }
-    .about__grid h2{
-        font-size:1.5em;
-    }
-    .about__grid p{
-        font-size:0.6em;
-    }
 
-} 
-@media (max-width: 654px){
-    
-    .about__grid{
-        width:100%;
-    }
-    .about__grid p{
-        color: #666666;
-        font-size: 0.9em;
-        line-height:2em;
-    }
-    .about__grid h2{
-        font-size:1.5em;
-    }
-    .about__grid p{
-        font-size:0.6em;
-    }
-    .about__pic{
-        width:100%;
-        background: url(./img/about-pic2-edited.jpg) no-repeat 0px 0px;
-        background-size: cover;
-    }
-}
 .about__grid h2{
     font-weight: 500;
     line-height: 1.1;
@@ -473,7 +432,7 @@ b {
 .about__grid ul li a{
     display: inline-block;
     padding: 0.6em 2em;
-    font-size: 1.1em;
+    font-size: 0.9em;
     color: var(--green);
     border: 2px solid var(--green);
     text-decoration: none;
@@ -487,6 +446,49 @@ b {
     background: var(--green);
     transition: 0.5s;
 
+}
+
+@media (max-width: 951px){
+    
+    .about__grid{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        padding-left:3rem;
+        padding-right:2rem;
+    }
+    .about__grid p{
+        color: #666666;
+        line-height:2em;
+    }
+    .about__grid h2{
+        font-size:1.5em;
+    }
+    .about__grid p{
+        font-size:1em;
+    }
+
+} 
+@media (max-width: 654px){
+    
+    .about__grid{
+        width:100%;
+    }
+    .about__grid p{
+        color: #666666;
+        font-size: 0.9em;
+        line-height:2em;
+    }
+    .about__grid h2{
+        font-size:1.5em;
+    }
+    /* .about__grid p{
+        font-size:0.9em;
+    } */
+    .about__pic{
+        width:100%;
+        background: url(./img/about-pic2-edited.jpg) no-repeat 0px 0px;
+        background-size: cover;
+    }
 }
 .services{
     background-color:#1b242f;
