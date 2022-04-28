@@ -290,7 +290,7 @@ b {
     }
     .header__address-text li{
         font-size: 14px;
-        opacity:0.8;
+        
     }
     .header__navicon{
         font-size: 3em;
@@ -647,7 +647,7 @@ span.border.two:after {
 }
 .service__box-right p {
     margin: 1em 0 0;
-    color: #586371;
+    color: #94a7bf;
     line-height: 1.9em;
     font-size: 0.9rem;
 }
