@@ -107,13 +107,6 @@ b {
     flex-direction: column;
     padding-left: 10vw;
     padding-right: 10vw;
-    
-    /*
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    */
    
 }
 
@@ -426,7 +419,6 @@ b {
     }
     .about__grid p{
         color: #666666;
-        font-size: 0.9em;
         line-height:2em;
     }
     .about__grid h2{
@@ -467,7 +459,7 @@ b {
 }
 .about__grid p{
     color: #666666;
-    font-size: 0.9em;
+    font-size: 1em;
     line-height:2em;
     margin-top: 0.5em;
 }
@@ -649,7 +641,7 @@ span.border.two:after {
     margin: 1em 0 0;
     color: #94a7bf;
     line-height: 1.9em;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 .service__box-right:nth-child(2) {
     margin-bottom: 2rem;
@@ -850,7 +842,7 @@ span.border.one:after {
     font-weight: 600;
 }
 .timeline-body p {
-    font-size: 0.9em;
+    font-size: 1em;
     margin: 0;
     padding: 0;
     color: #777;
@@ -917,16 +909,16 @@ span.border.one:after {
 }
 @media (max-width: 480px){
     .timeline-badge.primary {
-        top:290px;
+        top:310px;
     }
     .timeline-badge.danger{
-        top:550px;
+        top:620px;
     }
     .timeline-badge.success{
-        top:830px;
+        top:950px;
     }
     .timeline-badge.pass {
-        top: 1090px;  
+        top: 1230px;  
     }
 }
 
